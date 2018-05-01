@@ -1,0 +1,61 @@
+body {
+  min-height: 100vh;
+  font-family: Arial;
+}
+
+ul {
+  list-style: none;
+  width: 100vw;
+}
+
+li {
+  display: flex;
+  margin-top: 12px;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px #d4d8e1;
+}
+
+figure {
+  border-radius: 9px 0 0 9px;
+}
+
+main {
+  flex-grow: 1;
+  margin: auto 24px;
+  color: #adb5c5;
+}
+
+h3 {
+  margin: auto 0 4px;
+  font-size: 16px;
+}
+
+.class-details--price {
+  margin: auto 8px;
+  padding: 8px;
+  width: auto;
+  height: auto;
+  border-radius: 16px;
+  background-color: #fc6364;
+  font-size: 24px;
+  color: white;
+}
+
+figure {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  margin: 0;
+}
+
+img {
+  min-width: 100%;
+  min-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+footer {
+  text-align: center;
+}
