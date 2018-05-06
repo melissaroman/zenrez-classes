@@ -14,6 +14,7 @@ li {
   width: 80%;
   border-radius: 10px;
   box-shadow: 1px 1px 4px #d4d8e1;
+  cursor: pointer;
 }
 
 figure {
@@ -43,7 +44,8 @@ h3 {
 }
 
 figure {
-  width: 80px;
+  max-width: 80px;
+  min-width: 80px;
   height: 80px;
   overflow: hidden;
   margin: 0;

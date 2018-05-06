@@ -1,4 +1,6 @@
 fetch('https://zenrez-interview.herokuapp.com/classes').then((response) => {
+  isFetching = true;
+  console.log(isFetching);
   return response.json();
 }).then((data) => {
   let classList = data.classes;
@@ -31,6 +33,10 @@ fetch('https://zenrez-interview.herokuapp.com/classes').then((response) => {
     classPrice.appendChild(dollarSign);
     classPrice.appendChild(price);
     classLi.appendChild(classPrice);
+    classLi.onclick = function() {
+      // working on making this into a displayClassPage function
+      alert(title);
+    }
     ulContainer.appendChild(classLi);
   }
 })
